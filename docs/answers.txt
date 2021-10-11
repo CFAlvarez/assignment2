@@ -1,0 +1,24 @@
+Git Lab Tutorials: 10/11/21
+Github Account: 2017
+
+1. $ git push origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 6 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 327 bytes | 327.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/CFAlvarez/assignment2
+   f4975e5..d678213  master -> master
+2. 8. git rev-list --all --count 
+3. $ git log -1 --pretty="format:%ci" README.md
+2021-10-11 10:39:39 
+4. Branches allows to easily merge different versions. Branches also let devs isolate their work from others and seperate from the original code base. 
+5. git log shows the record of commints in a repo. while git status shows the state of the working directory and the staginf area. 
+6. git log --all --grep='vehicle.h'
+7. git log --all --grep='file'
+8. Inheritance is when one class inherits the attributes and methods of another. Polymorphism is when a method performs differently depending on the class that calls it. Encapsulation is combining data and functions into a sincle class. 
+9. The main differnce between the two workflows is that a developer pushes changes to an assigned repo instead of their own public repo. Also in Dictator and Lieutenants only the dictator can push to the 'blessed' repo.
+10. The benefit of the Dictator and Lieutenants is that all of the changes move into the dictator repo where they solve any conflicts before pushing changes to the blessed repo. This makes conflicr resoluton centralized and adds more layers of control before the main repo has code pushed to it. 
+
